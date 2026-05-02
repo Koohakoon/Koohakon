@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Koohakon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="home">
+  <!-- Header -->
+  <header class="main-header">
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+
+    <select id="lang-select" class="lang-select" aria-label="Select language">
+      <option value="en" selected>English</option>
+      <option value="id">Indonesia</option>
+    </select>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="hero" class="fade-up">
+      <img src="images/profile.png" alt="Koohakon" class="hero-image">
+      <h1 data-i18n="heroTitle">Hi, I'm Koohakoon</h1>
+      <p class="tagline" data-i18n="tagline">2D/3D Artist | Web developer | UI/UX Designer</p>
+
+      <div class="hero-buttons-vertical">
+        <a href="about.html"><span data-i18n="aboutBtn">About Me</span></a>
+        <a href="projects.html"><span data-i18n="projectsBtn">Projects</span></a>
+        <a href="links.html"><span data-i18n="linksBtn">Links</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p data-i18n="footer">© 2025 Koohakon. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

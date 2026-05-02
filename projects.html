@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="projectsTitle">Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="projects">
+  <header class="main-header">
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+
+    <select id="lang-select" class="lang-select" aria-label="Select language">
+      <option value="en" selected>English</option>
+      <option value="id">Indonesia</option>
+    </select>
+  </header>
+
+  <main>
+    <section id="projects" class="fade-up">
+      <h1 data-i18n="projectsTitle">My Projects</h1>
+      <p class="tagline" data-i18n="projectsDesc">Here are some things I am currently learning and working on.</p>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <a href="#" class="project-card">
+          <img src="images/drawing.jpg" alt="Illustration">
+          <span data-i18n="project1">Illustration</span>
+        </a>
+
+        <!-- Project 2 -->
+        <a href="#" class="project-card">
+          <img src="images/blender.jpg" alt="Blender">
+          <span data-i18n="project2">Blender</span>
+        </a>
+
+        <!-- Project 3 -->
+        <a href="#" class="project-card">
+          <img src="images/webdev.jpg" alt="Web Developer">
+          <span data-i18n="project3">Web Developer</span>
+        </a>
+      </div>
+
+      <div class="hero-buttons-vertical">
+        <a href="index.html"><span data-i18n="aboutFooter">Back to Home</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p data-i18n="footer">© 2025 Nohakuun. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
